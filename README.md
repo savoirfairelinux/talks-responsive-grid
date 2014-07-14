@@ -29,12 +29,12 @@ $ pip install -r requirements.txt
 
 ### Workflow
 
-1. Fire up landslide *watch*
+#### 1. Fire up landslide *watch*
 
 ```
 $ landslide slides.cfg -w
 ```
 
-2. Edit the *slides.md* file
+#### 2. Edit the *slides.md* file
 
-3. Refresh your browser
+#### 3. Refresh your browser
