@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La grille responsive</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+    <style>
+        div.row {
+            margin-bottom: 1em;
+        }
+        div[class^=col-] {
+            background-color: pink;
+            text-align: center;
+        }
+        div[class^=col-]:nth-child(2n) {
+            background-color: DeepPink;
+            color: #fff;
+        }
+
+        div[class^=col-] img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Largeur fixe</h1>
+        <div class="row">
+            <div class="col-xs-6 col-lg-1"><img src="http://placekitten.com/200/300" alt=""></div>
+            <div class="col-xs-6 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-6 col-lg-1">1</div>
+            <div class="col-xs-6 col-lg-1">1</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">4</div>
+            <div class="col-lg-4">4</div>
+            <div class="col-lg-4">4</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">6</div>
+            <div class="col-lg-6">6</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1>Largeur complète</h1>
+        
+        <div class="row">
+            <div class="col-xs-6 col-lg-1"><img src="http://placekitten.com/200/300" alt=""></div>
+            <div class="col-xs-6 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-3 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-12 col-lg-1">1</div>
+            <div class="col-xs-6 col-lg-1">1</div>
+            <div class="col-xs-6 col-lg-1">1</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+            <div class="col-lg-3">3</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">4</div>
+            <div class="col-lg-4">4</div>
+            <div class="col-lg-4">4</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">6</div>
+            <div class="col-lg-6">6</div>
+        </div>
+    </div>
+</body>
+</html>

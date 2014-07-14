@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+div.presentation,
+div.slide {
+    background: #1d799e;
+}
+
+div.slide h1,
+div.slide h2,
+div.slide h3,
+div.slide h4,
+div.slide h5,
+div.slide h6,
+div.slide p,
+div.slide li,
+div.slide a {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+pre {
+    padding:5px;
+        font-family: "Droid Sans Mono", sans-serif;
+    }
+}
