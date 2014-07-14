@@ -18,7 +18,7 @@ Open up the *slides.html* and the *grid.html* files in your favorite browser.
 
 * Python
 * Pip
-* [Landslide module](https://github.com/adamzap/landslide)
+* VirtualEnv
 
 ### Install
 
