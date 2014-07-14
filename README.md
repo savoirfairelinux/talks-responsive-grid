@@ -24,6 +24,8 @@ Open up the *slides.html* and the *grid.html* files in your favorite browser.
 
 ```
 $ cd talks-responsive-grid
+$ virtualenv venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
