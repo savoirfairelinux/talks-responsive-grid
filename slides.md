@@ -32,6 +32,28 @@
 
 ---
 
-# “Respect the grid” - Émilien
-
+<h1 style="text-align: center;">”Respect the grid” - Émilien</h1>
 <img src="assets/respect.jpg">
+
+---
+
+# À retenir
+
+<img src="assets/tb3-design.png">
+
+---
+
+# Pour Twitter Bootstrap 3
+
+* Gouttière implicite (non visible mais bien présente)
+    * 15px de chaque côté de toutes les colonnes; incluant la première et la dernière colonne !
+* Grande flexibilité pour passer d’une grille mobile à une grille desktop
+* Nous l’utiliserons dans la plupart de nos projets qui ne sont pas sous Drupal ou Liferay.
+
+---
+
+# Pour Twitter Bootstrap 2.3.2
+
+* Gouttière explicite
+* Liferay l’utilise dans sa console d’administration
+* Moins flexible que la dernière version
