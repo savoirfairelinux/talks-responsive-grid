@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La grille responsive</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" type="text/css">
+    <style>
+        div.row-fluid {
+            margin-bottom: 1em;
+            background: BlueViolet;
+        }
+        div[class^=span] {
+            background-color: pink;
+        }
+        div[class^=span]:nth-child(2n) {
+            background-color: DeepPink;
+            color: #fff;
+        }
+
+        div[class^=span] img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Twitter Bootstrap 2.3.2: Largeur fluide</h1>
+        <div class="row-fluid">
+            <div class="span1"><img src="http://placekitten.com/200/300" alt=""></div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+            <div class="span1">1</div>
+        </div>
+        <div class="row-fluid">
+            <div class="span3">3</div>
+            <div class="span3">3</div>
+            <div class="span3">3</div>
+            <div class="span3">3</div>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">Adipisicing totam aspernatur ea sit asperiores? Totam ipsa sit omnis ducimus lorem. Quos natus excepturi aliquam dolorum aspernatur nemo? Ipsam distinctio natus ratione non repellat odit? Aliquid quidem ab perspiciatis!</div>
+            <div class="span4">Adipisicing quidem maiores repudiandae nemo quam aperiam quo? Nemo sunt non minima odio assumenda blanditiis. Illo quasi eum amet consequatur sit. Incidunt deserunt magnam numquam fugiat optio dolores pariatur suscipit.</div>
+            <div class="span4">4</div>
+        </div>
+        <div class="row-fluid">
+            <div class="span6">Ipsum accusamus sunt aspernatur a inventore iste non voluptate in obcaecati. Atque nulla iste dolore odit odio sint sapiente eos voluptas iste a. Quam quasi accusantium optio nam cumque qui!</div>
+            <div class="span6">6</div>
+        </div>
+    </div>
+</body>
+</html>

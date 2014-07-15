@@ -16,9 +16,10 @@
 
 ---
 
-# Comment ça se manifeste sous Twitter Bootstrap 3 ?
+# Comment la grille se présente sous Twitter Bootstrap 2.3.2/3 ?
 
-[Démo](grid.html)
+* [Démonstration sous Twitter Bootstrap 3](grid.html)
+* [Démonstration sous Twitter Bootstrap 2.3.2](grid-tb-2.3.2.html)
 
 # Presenter notes
 
@@ -32,3 +33,5 @@
 ---
 
 # “Respect the grid” - Émilien
+
+<img src="assets/respect.jpg">

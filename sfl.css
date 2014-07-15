@@ -18,6 +18,10 @@ div.slide a {
     font-family: 'Ubuntu', sans-serif;
 }
 
+div.slide.current {
+    z-index: 10000;
+}
+
 pre {
     padding:5px;
         font-family: "Droid Sans Mono", sans-serif;
